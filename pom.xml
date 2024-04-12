@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>al_mohammed_mohammed</groupId>
+    <artifactId>email-tests</artifactId>
+    <version>1.0</version>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source> <!-- JDK version to compile the source files -->
+        <maven.compiler.target>11</maven.compiler.target> <!-- JDK version to target for class files -->
+    </properties>
+
+    <dependencies>
+        <!-- Add JUnit for unit tests -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version> <!-- JUnit version I'm using -->
+            <scope>test</scope>
+        </dependency>
+        <!-- Include Apache Commons Email for the email functionality -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-email</artifactId>
+            <version>1.5</version> <!-- The version compatible with Java 11 -->
+        </dependency>
+    </dependencies>
+</project>
