@@ -1,4 +1,4 @@
-# Email Testing Assignment, Mohammed Al-Mohammed
+# Assignment 04, Mohammed Al-Mohammed
 
 ## Overview
 Hello, this project contains JUnit test cases for the Apache Commons Email library. The tests check functionality like adding BCC/CC recipients, setting headers, and configuring the email before sending.
